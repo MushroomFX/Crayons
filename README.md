@@ -6,7 +6,7 @@
     1. Enter the desired tags for the images (separated by spaces).
     2. Enter the desired amount of image requests (duplicates are being removed).
     3. Either wait for the download to finish or do step **`2.`** meanwhile.
-3. Go to your screen settings and change the mode to **`Diashow`**.
+3. Go to your screen settings and change the mode to **`slideshow`**.
 4. Navigate to and select the **`images`** folder.
 5. Enjoy!
 
@@ -20,4 +20,5 @@
 - - -
 
 ### **Credits:**
-Used [Unsplash](https://source.unsplash.com/random/) to retrieve the images.
+- Used [Unsplash](https://source.unsplash.com/random/) to retrieve the images.
+- Used [nodejs](https://nodejs.org/).
