@@ -1,0 +1,19 @@
+{
+  "name": "crayons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MushroomFX/Crayons.git"
+  },
+  "author": "MushroomFX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MushroomFX/Crayons/issues"
+  },
+  "homepage": "https://github.com/MushroomFX/Crayons#readme"
+}
