@@ -1,5 +1,7 @@
 # **Crayons: A Visual Delight**
 
+**Feel the vibrant energy of images come to life with Crayons. A fusion of technology and artistry that transforms your screen into a masterpiece.**
+
 ### **Getting Started:**
 1. Begin by downloading and unpacking the repository into your desired location.
 2. Run the **`start.bat`** file.
