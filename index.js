@@ -44,7 +44,7 @@ async function loadImages(amount) {
     for (let i = 0; i < amount; i++) {
         const imageUrl = await fetchImage(settings.tags, settings.x, settings.y);
         // console.log('Fetched image URL:', imageUrl);
-        const localPath = path.join(__dirname, 'images', `image${i}.jpg`);
+        const localPath = path.join(__dirname, 'images', `image_${settings.tags.join("_")}_${i}.jpg`);
         downloadImage(imageUrl, localPath);
     }
 

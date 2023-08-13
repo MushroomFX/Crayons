@@ -36,8 +36,16 @@ echo ^}>>settings.json
 
 endlocal
 
+set /p "keepoldFiles=Keep old files(type: yes/no) "
 
-del images /F /Q && mkdir images 
+if "%keepoldFiles%" == "no" goto delMk
+
+mkdir images
+goto mkDone
+:delMk
+del images /F /Q && mkdir images
+:mkDone
+
 node index.js
 cd ./images
 start .
